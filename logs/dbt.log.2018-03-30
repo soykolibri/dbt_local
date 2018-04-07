@@ -1,0 +1,765 @@
+2018-03-30 16:51:39,062: Tracking: tracking
+2018-03-30 16:51:39,062: Sending event: {'category': 'dbt', 'action': 'invocation', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109315d50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109315bd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109315a10>], 'label': 'start'}
+2018-03-30 16:51:39,419: Loading dependency project from /anaconda2/lib/python2.7/site-packages/dbt/include
+2018-03-30 16:51:39,438: Loading dependency project from /Users/clarice/dbt_local/dbt_modules
+2018-03-30 16:51:39,440: Parsing core.sql
+2018-03-30 16:51:39,456: Parsing materializations/view.sql
+2018-03-30 16:51:39,475: Parsing materializations/bigquery.sql
+2018-03-30 16:51:39,491: Parsing materializations/wrapper.sql
+2018-03-30 16:51:39,496: Parsing materializations/helpers.sql
+2018-03-30 16:51:39,518: Parsing materializations/table.sql
+2018-03-30 16:51:39,540: Parsing materializations/archive.sql
+2018-03-30 16:51:39,575: Parsing materializations/incremental.sql
+2018-03-30 16:51:39,607: Parsing etc/get_custom_schema.sql
+2018-03-30 16:51:39,613: Parsing adapters/bigquery.sql
+2018-03-30 16:51:39,619: Parsing adapters/common.sql
+2018-03-30 16:51:39,642: Parsing adapters/redshift.sql
+2018-03-30 16:51:39,666: Parsing adapters/postgres.sql
+2018-03-30 16:51:39,670: Parsing schema_tests/relationships.sql
+2018-03-30 16:51:39,674: Parsing schema_tests/not_null.sql
+2018-03-30 16:51:39,676: Parsing schema_tests/unique.sql
+2018-03-30 16:51:39,678: Parsing schema_tests/accepted_values.sql
+2018-03-30 16:51:39,686: Found 42 macros, 0 analyses, 0 archives, 0 tests, 0 models, 0 operations
+2018-03-30 16:51:39,687: * Spec='*' does not identify any models and was ignored
+
+2018-03-30 16:51:39,690: WARNING: Nothing to do. Try checking your model configs and model specification args
+2018-03-30 16:51:39,690: 16:51:39 | Done.
+2018-03-30 16:51:39,690: Sending event: {'category': 'dbt', 'action': 'invocation', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106341710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107a722d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109304d10>], 'label': 'end'}
+2018-03-30 16:51:40,029: Flushing usage events
+2018-03-30 16:52:23,640: Tracking: tracking
+2018-03-30 16:52:23,641: Sending event: {'category': 'dbt', 'action': 'invocation', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1515cb0d50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1515cb0bd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1515cb0a10>], 'label': 'start'}
+2018-03-30 16:52:24,004: Loading dependency project from /anaconda2/lib/python2.7/site-packages/dbt/include
+2018-03-30 16:52:24,018: Loading dependency project from /Users/clarice/dbt_local/dbt_modules
+2018-03-30 16:52:24,020: Parsing core.sql
+2018-03-30 16:52:24,033: Parsing materializations/view.sql
+2018-03-30 16:52:24,050: Parsing materializations/bigquery.sql
+2018-03-30 16:52:24,065: Parsing materializations/wrapper.sql
+2018-03-30 16:52:24,068: Parsing materializations/helpers.sql
+2018-03-30 16:52:24,089: Parsing materializations/table.sql
+2018-03-30 16:52:24,109: Parsing materializations/archive.sql
+2018-03-30 16:52:24,144: Parsing materializations/incremental.sql
+2018-03-30 16:52:24,175: Parsing etc/get_custom_schema.sql
+2018-03-30 16:52:24,181: Parsing adapters/bigquery.sql
+2018-03-30 16:52:24,186: Parsing adapters/common.sql
+2018-03-30 16:52:24,209: Parsing adapters/redshift.sql
+2018-03-30 16:52:24,232: Parsing adapters/postgres.sql
+2018-03-30 16:52:24,235: Parsing schema_tests/relationships.sql
+2018-03-30 16:52:24,238: Parsing schema_tests/not_null.sql
+2018-03-30 16:52:24,239: Parsing schema_tests/unique.sql
+2018-03-30 16:52:24,241: Parsing schema_tests/accepted_values.sql
+2018-03-30 16:52:24,249: Found 42 macros, 0 analyses, 0 archives, 0 tests, 0 models, 0 operations
+2018-03-30 16:52:24,249: * Spec='*' does not identify any models and was ignored
+
+2018-03-30 16:52:24,252: WARNING: Nothing to do. Try checking your model configs and model specification args
+2018-03-30 16:52:24,253: 16:52:24 | Done.
+2018-03-30 16:52:24,253: Sending event: {'category': 'dbt', 'action': 'invocation', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112511710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1138422d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1515c9fd10>], 'label': 'end'}
+2018-03-30 16:52:24,587: Flushing usage events
+2018-03-30 16:54:17,316: Tracking: tracking
+2018-03-30 16:54:17,316: Sending event: {'category': 'dbt', 'action': 'invocation', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f799d50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f799bd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f799a10>], 'label': 'start'}
+2018-03-30 16:54:17,697: Loading dependency project from /anaconda2/lib/python2.7/site-packages/dbt/include
+2018-03-30 16:54:17,712: Loading dependency project from /Users/clarice/dbt_local/dbt_modules
+2018-03-30 16:54:17,713: Parsing core.sql
+2018-03-30 16:54:17,727: Parsing materializations/view.sql
+2018-03-30 16:54:17,744: Parsing materializations/bigquery.sql
+2018-03-30 16:54:17,759: Parsing materializations/wrapper.sql
+2018-03-30 16:54:17,762: Parsing materializations/helpers.sql
+2018-03-30 16:54:17,783: Parsing materializations/table.sql
+2018-03-30 16:54:17,804: Parsing materializations/archive.sql
+2018-03-30 16:54:17,839: Parsing materializations/incremental.sql
+2018-03-30 16:54:17,870: Parsing etc/get_custom_schema.sql
+2018-03-30 16:54:17,876: Parsing adapters/bigquery.sql
+2018-03-30 16:54:17,881: Parsing adapters/common.sql
+2018-03-30 16:54:17,904: Parsing adapters/redshift.sql
+2018-03-30 16:54:17,928: Parsing adapters/postgres.sql
+2018-03-30 16:54:17,931: Parsing schema_tests/relationships.sql
+2018-03-30 16:54:17,934: Parsing schema_tests/not_null.sql
+2018-03-30 16:54:17,935: Parsing schema_tests/unique.sql
+2018-03-30 16:54:17,937: Parsing schema_tests/accepted_values.sql
+2018-03-30 16:54:17,946: Found 42 macros, 0 analyses, 0 archives, 0 tests, 0 models, 0 operations
+2018-03-30 16:54:17,946: * Spec='*' does not identify any models and was ignored
+
+2018-03-30 16:54:17,949: WARNING: Nothing to do. Try checking your model configs and model specification args
+2018-03-30 16:54:17,949: 16:54:17 | Done.
+2018-03-30 16:54:17,949: Sending event: {'category': 'dbt', 'action': 'invocation', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c7c5710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10def62d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f788d10>], 'label': 'end'}
+2018-03-30 16:54:18,282: Flushing usage events
+2018-03-30 16:59:27,625: Tracking: tracking
+2018-03-30 16:59:27,626: Sending event: {'category': 'dbt', 'action': 'invocation', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10fb71d50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10fb71bd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10fb71a10>], 'label': 'start'}
+2018-03-30 16:59:27,999: Loading dependency project from /anaconda2/lib/python2.7/site-packages/dbt/include
+2018-03-30 16:59:28,014: Loading dependency project from /Users/clarice/dbt_local/dbt_modules
+2018-03-30 16:59:28,015: Parsing core.sql
+2018-03-30 16:59:28,029: Parsing materializations/view.sql
+2018-03-30 16:59:28,046: Parsing materializations/bigquery.sql
+2018-03-30 16:59:28,062: Parsing materializations/wrapper.sql
+2018-03-30 16:59:28,066: Parsing materializations/helpers.sql
+2018-03-30 16:59:28,085: Parsing materializations/table.sql
+2018-03-30 16:59:28,106: Parsing materializations/archive.sql
+2018-03-30 16:59:28,141: Parsing materializations/incremental.sql
+2018-03-30 16:59:28,170: Parsing etc/get_custom_schema.sql
+2018-03-30 16:59:28,176: Parsing adapters/bigquery.sql
+2018-03-30 16:59:28,181: Parsing adapters/common.sql
+2018-03-30 16:59:28,204: Parsing adapters/redshift.sql
+2018-03-30 16:59:28,227: Parsing adapters/postgres.sql
+2018-03-30 16:59:28,230: Parsing schema_tests/relationships.sql
+2018-03-30 16:59:28,233: Parsing schema_tests/not_null.sql
+2018-03-30 16:59:28,234: Parsing schema_tests/unique.sql
+2018-03-30 16:59:28,236: Parsing schema_tests/accepted_values.sql
+2018-03-30 16:59:28,244: Found 42 macros, 0 analyses, 0 archives, 0 tests, 0 models, 0 operations
+2018-03-30 16:59:28,244: * Spec='*' does not identify any models and was ignored
+
+2018-03-30 16:59:28,247: WARNING: Nothing to do. Try checking your model configs and model specification args
+2018-03-30 16:59:28,248: 16:59:28 | Done.
+2018-03-30 16:59:28,248: Sending event: {'category': 'dbt', 'action': 'invocation', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cb9d710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e2ce2d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10fb60d10>], 'label': 'end'}
+2018-03-30 16:59:28,577: Flushing usage events
+2018-03-30 17:03:55,139: Tracking: tracking
+2018-03-30 17:03:55,140: Sending event: {'category': 'dbt', 'action': 'invocation', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x150d3d1d50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x150d3d1bd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x150d3d1a10>], 'label': 'start'}
+2018-03-30 17:03:55,518: Loading dependency project from /anaconda2/lib/python2.7/site-packages/dbt/include
+2018-03-30 17:03:55,533: Loading dependency project from /Users/clarice/dbt_local/dbt_modules
+2018-03-30 17:03:55,534: Parsing core.sql
+2018-03-30 17:03:55,548: Parsing materializations/view.sql
+2018-03-30 17:03:55,564: Parsing materializations/bigquery.sql
+2018-03-30 17:03:55,580: Parsing materializations/wrapper.sql
+2018-03-30 17:03:55,583: Parsing materializations/helpers.sql
+2018-03-30 17:03:55,604: Parsing materializations/table.sql
+2018-03-30 17:03:55,625: Parsing materializations/archive.sql
+2018-03-30 17:03:55,660: Parsing materializations/incremental.sql
+2018-03-30 17:03:55,689: Parsing etc/get_custom_schema.sql
+2018-03-30 17:03:55,695: Parsing adapters/bigquery.sql
+2018-03-30 17:03:55,700: Parsing adapters/common.sql
+2018-03-30 17:03:55,723: Parsing adapters/redshift.sql
+2018-03-30 17:03:55,747: Parsing adapters/postgres.sql
+2018-03-30 17:03:55,750: Parsing schema_tests/relationships.sql
+2018-03-30 17:03:55,753: Parsing schema_tests/not_null.sql
+2018-03-30 17:03:55,754: Parsing schema_tests/unique.sql
+2018-03-30 17:03:55,756: Parsing schema_tests/accepted_values.sql
+2018-03-30 17:03:55,764: Found 42 macros, 0 analyses, 0 archives, 0 tests, 0 models, 0 operations
+2018-03-30 17:03:55,764: * Spec='*' does not identify any models and was ignored
+
+2018-03-30 17:03:55,767: WARNING: Nothing to do. Try checking your model configs and model specification args
+2018-03-30 17:03:55,767: 17:03:55 | Done.
+2018-03-30 17:03:55,768: Sending event: {'category': 'dbt', 'action': 'invocation', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109cd5710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b4032d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x150d3c0d10>], 'label': 'end'}
+2018-03-30 17:03:56,107: Flushing usage events
+2018-03-30 17:04:55,733: Tracking: tracking
+2018-03-30 17:04:55,733: Sending event: {'category': 'dbt', 'action': 'invocation', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11521ad50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11521abd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11521aa10>], 'label': 'start'}
+2018-03-30 17:04:56,079: Loading dependency project from /anaconda2/lib/python2.7/site-packages/dbt/include
+2018-03-30 17:04:56,093: Loading dependency project from /Users/clarice/dbt_local/dbt_modules
+2018-03-30 17:04:56,095: Parsing core.sql
+2018-03-30 17:04:56,108: Parsing materializations/view.sql
+2018-03-30 17:04:56,125: Parsing materializations/bigquery.sql
+2018-03-30 17:04:56,140: Parsing materializations/wrapper.sql
+2018-03-30 17:04:56,144: Parsing materializations/helpers.sql
+2018-03-30 17:04:56,164: Parsing materializations/table.sql
+2018-03-30 17:04:56,184: Parsing materializations/archive.sql
+2018-03-30 17:04:56,219: Parsing materializations/incremental.sql
+2018-03-30 17:04:56,248: Parsing etc/get_custom_schema.sql
+2018-03-30 17:04:56,254: Parsing adapters/bigquery.sql
+2018-03-30 17:04:56,259: Parsing adapters/common.sql
+2018-03-30 17:04:56,281: Parsing adapters/redshift.sql
+2018-03-30 17:04:56,304: Parsing adapters/postgres.sql
+2018-03-30 17:04:56,308: Parsing schema_tests/relationships.sql
+2018-03-30 17:04:56,310: Parsing schema_tests/not_null.sql
+2018-03-30 17:04:56,312: Parsing schema_tests/unique.sql
+2018-03-30 17:04:56,314: Parsing schema_tests/accepted_values.sql
+2018-03-30 17:04:56,322: Found 42 macros, 0 analyses, 0 archives, 0 tests, 0 models, 0 operations
+2018-03-30 17:04:56,322: * Spec='*' does not identify any models and was ignored
+
+2018-03-30 17:04:56,325: WARNING: Nothing to do. Try checking your model configs and model specification args
+2018-03-30 17:04:56,325: 17:04:56 | Done.
+2018-03-30 17:04:56,326: Sending event: {'category': 'dbt', 'action': 'invocation', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112246710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1139772d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x115209d10>], 'label': 'end'}
+2018-03-30 17:04:56,657: Flushing usage events
+2018-03-30 17:06:10,104: Tracking: tracking
+2018-03-30 17:06:10,104: Sending event: {'category': 'dbt', 'action': 'invocation', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1151e7d50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1151e7bd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1151e7a10>], 'label': 'start'}
+2018-03-30 17:06:10,475: Loading dependency project from /anaconda2/lib/python2.7/site-packages/dbt/include
+2018-03-30 17:06:10,490: Loading dependency project from /Users/clarice/dbt_local/dbt_modules
+2018-03-30 17:06:10,492: Parsing core.sql
+2018-03-30 17:06:10,505: Parsing materializations/view.sql
+2018-03-30 17:06:10,521: Parsing materializations/bigquery.sql
+2018-03-30 17:06:10,536: Parsing materializations/wrapper.sql
+2018-03-30 17:06:10,540: Parsing materializations/helpers.sql
+2018-03-30 17:06:10,559: Parsing materializations/table.sql
+2018-03-30 17:06:10,581: Parsing materializations/archive.sql
+2018-03-30 17:06:10,615: Parsing materializations/incremental.sql
+2018-03-30 17:06:10,645: Parsing etc/get_custom_schema.sql
+2018-03-30 17:06:10,651: Parsing adapters/bigquery.sql
+2018-03-30 17:06:10,656: Parsing adapters/common.sql
+2018-03-30 17:06:10,679: Parsing adapters/redshift.sql
+2018-03-30 17:06:10,701: Parsing adapters/postgres.sql
+2018-03-30 17:06:10,705: Parsing schema_tests/relationships.sql
+2018-03-30 17:06:10,707: Parsing schema_tests/not_null.sql
+2018-03-30 17:06:10,709: Parsing schema_tests/unique.sql
+2018-03-30 17:06:10,711: Parsing schema_tests/accepted_values.sql
+2018-03-30 17:06:10,718: Found 42 macros, 0 analyses, 0 archives, 0 tests, 0 models, 0 operations
+2018-03-30 17:06:10,719: * Spec='*' does not identify any models and was ignored
+
+2018-03-30 17:06:10,722: WARNING: Nothing to do. Try checking your model configs and model specification args
+2018-03-30 17:06:10,722: 17:06:10 | Done.
+2018-03-30 17:06:10,722: Sending event: {'category': 'dbt', 'action': 'invocation', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112213710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1139442d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1151d6d10>], 'label': 'end'}
+2018-03-30 17:06:11,060: Flushing usage events
+2018-03-30 17:07:30,176: Tracking: tracking
+2018-03-30 17:07:30,177: Sending event: {'category': 'dbt', 'action': 'invocation', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1515a9ed50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1515a9ebd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1515a9ea10>], 'label': 'start'}
+2018-03-30 17:07:30,552: Loading dependency project from /anaconda2/lib/python2.7/site-packages/dbt/include
+2018-03-30 17:07:30,567: Loading dependency project from /Users/clarice/dbt_local/dbt_modules
+2018-03-30 17:07:30,568: Parsing core.sql
+2018-03-30 17:07:30,582: Parsing materializations/view.sql
+2018-03-30 17:07:30,598: Parsing materializations/bigquery.sql
+2018-03-30 17:07:30,613: Parsing materializations/wrapper.sql
+2018-03-30 17:07:30,617: Parsing materializations/helpers.sql
+2018-03-30 17:07:30,638: Parsing materializations/table.sql
+2018-03-30 17:07:30,659: Parsing materializations/archive.sql
+2018-03-30 17:07:30,693: Parsing materializations/incremental.sql
+2018-03-30 17:07:30,723: Parsing etc/get_custom_schema.sql
+2018-03-30 17:07:30,729: Parsing adapters/bigquery.sql
+2018-03-30 17:07:30,734: Parsing adapters/common.sql
+2018-03-30 17:07:30,757: Parsing adapters/redshift.sql
+2018-03-30 17:07:30,780: Parsing adapters/postgres.sql
+2018-03-30 17:07:30,783: Parsing schema_tests/relationships.sql
+2018-03-30 17:07:30,786: Parsing schema_tests/not_null.sql
+2018-03-30 17:07:30,787: Parsing schema_tests/unique.sql
+2018-03-30 17:07:30,789: Parsing schema_tests/accepted_values.sql
+2018-03-30 17:07:30,797: Found 42 macros, 0 analyses, 0 archives, 0 tests, 0 models, 0 operations
+2018-03-30 17:07:30,798: * Spec='*' does not identify any models and was ignored
+
+2018-03-30 17:07:30,801: WARNING: Nothing to do. Try checking your model configs and model specification args
+2018-03-30 17:07:30,801: 17:07:30 | Done.
+2018-03-30 17:07:30,801: Sending event: {'category': 'dbt', 'action': 'invocation', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112301710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113ad02d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1515a8dd10>], 'label': 'end'}
+2018-03-30 17:07:31,140: Flushing usage events
+2018-03-30 17:10:37,903: Tracking: tracking
+2018-03-30 17:10:37,903: Sending event: {'category': 'dbt', 'action': 'invocation', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f71ed50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f71ebd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f71ea10>], 'label': 'start'}
+2018-03-30 17:10:38,283: Loading dependency project from /anaconda2/lib/python2.7/site-packages/dbt/include
+2018-03-30 17:10:38,297: Loading dependency project from /Users/clarice/dbt_local/dbt_modules
+2018-03-30 17:10:38,298: Parsing core.sql
+2018-03-30 17:10:38,311: Parsing materializations/view.sql
+2018-03-30 17:10:38,327: Parsing materializations/bigquery.sql
+2018-03-30 17:10:38,342: Parsing materializations/wrapper.sql
+2018-03-30 17:10:38,346: Parsing materializations/helpers.sql
+2018-03-30 17:10:38,366: Parsing materializations/table.sql
+2018-03-30 17:10:38,387: Parsing materializations/archive.sql
+2018-03-30 17:10:38,421: Parsing materializations/incremental.sql
+2018-03-30 17:10:38,450: Parsing etc/get_custom_schema.sql
+2018-03-30 17:10:38,456: Parsing adapters/bigquery.sql
+2018-03-30 17:10:38,461: Parsing adapters/common.sql
+2018-03-30 17:10:38,484: Parsing adapters/redshift.sql
+2018-03-30 17:10:38,506: Parsing adapters/postgres.sql
+2018-03-30 17:10:38,510: Parsing schema_tests/relationships.sql
+2018-03-30 17:10:38,512: Parsing schema_tests/not_null.sql
+2018-03-30 17:10:38,514: Parsing schema_tests/unique.sql
+2018-03-30 17:10:38,516: Parsing schema_tests/accepted_values.sql
+2018-03-30 17:10:38,523: Found 42 macros, 0 analyses, 0 archives, 0 tests, 0 models, 0 operations
+2018-03-30 17:10:38,523: * Spec='*' does not identify any models and was ignored
+
+2018-03-30 17:10:38,526: WARNING: Nothing to do. Try checking your model configs and model specification args
+2018-03-30 17:10:38,527: 17:10:38 | Done.
+2018-03-30 17:10:38,527: Sending event: {'category': 'dbt', 'action': 'invocation', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c74a710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10de7b2d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f70dd10>], 'label': 'end'}
+2018-03-30 17:10:38,859: Flushing usage events
+2018-03-30 17:15:13,541: Tracking: tracking
+2018-03-30 17:15:13,541: Sending event: {'category': 'dbt', 'action': 'invocation', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1154f1d50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1154f1bd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1154f1a10>], 'label': 'start'}
+2018-03-30 17:15:13,896: Loading dependency project from /anaconda2/lib/python2.7/site-packages/dbt/include
+2018-03-30 17:15:13,911: Loading dependency project from /Users/clarice/dbt_local/dbt_modules
+2018-03-30 17:15:13,912: Parsing core.sql
+2018-03-30 17:15:13,925: Parsing materializations/view.sql
+2018-03-30 17:15:13,942: Parsing materializations/bigquery.sql
+2018-03-30 17:15:13,957: Parsing materializations/wrapper.sql
+2018-03-30 17:15:13,960: Parsing materializations/helpers.sql
+2018-03-30 17:15:13,980: Parsing materializations/table.sql
+2018-03-30 17:15:14,001: Parsing materializations/archive.sql
+2018-03-30 17:15:14,035: Parsing materializations/incremental.sql
+2018-03-30 17:15:14,064: Parsing etc/get_custom_schema.sql
+2018-03-30 17:15:14,070: Parsing adapters/bigquery.sql
+2018-03-30 17:15:14,075: Parsing adapters/common.sql
+2018-03-30 17:15:14,097: Parsing adapters/redshift.sql
+2018-03-30 17:15:14,120: Parsing adapters/postgres.sql
+2018-03-30 17:15:14,123: Parsing schema_tests/relationships.sql
+2018-03-30 17:15:14,125: Parsing schema_tests/not_null.sql
+2018-03-30 17:15:14,127: Parsing schema_tests/unique.sql
+2018-03-30 17:15:14,129: Parsing schema_tests/accepted_values.sql
+2018-03-30 17:15:14,136: Parsing model.bin_loc_history.location_history
+2018-03-30 17:15:14,139: Sending event: {'category': 'dbt', 'action': 'invocation', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1155d6dd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x115562790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1155626d0>], 'label': 'end'}
+2018-03-30 17:15:14,472: Encountered an error:
+2018-03-30 17:15:14,472: Compilation Error in model location_history (models/location_history.sql)
+  Model 'model.bin_loc_history.location_history' depends on model 'raw_table' which was not found or is disabled
+2018-03-30 17:15:14,483: Traceback (most recent call last):
+  File "/anaconda2/lib/python2.7/site-packages/dbt/main.py", line 40, in main
+    results, succeeded = handle_and_check(args)
+  File "/anaconda2/lib/python2.7/site-packages/dbt/main.py", line 84, in handle_and_check
+    task, res = run_from_args(parsed)
+  File "/anaconda2/lib/python2.7/site-packages/dbt/main.py", line 138, in run_from_args
+    results = run_from_task(task, proj, parsed)
+  File "/anaconda2/lib/python2.7/site-packages/dbt/main.py", line 146, in run_from_task
+    result = task.run()
+  File "/anaconda2/lib/python2.7/site-packages/dbt/task/compile.py", line 25, in run
+    results = runner.run(query, CompileRunner)
+  File "/anaconda2/lib/python2.7/site-packages/dbt/runner.py", line 223, in run
+    return self.run_from_graph(Selector, Runner, query)
+  File "/anaconda2/lib/python2.7/site-packages/dbt/runner.py", line 183, in run_from_graph
+    flat_graph, linker = self.compile(self.project)
+  File "/anaconda2/lib/python2.7/site-packages/dbt/runner.py", line 179, in compile
+    (flat_graph, linker) = compiler.compile()
+  File "/anaconda2/lib/python2.7/site-packages/dbt/compilation.py", line 281, in compile
+    root_project.get('name'))
+  File "/anaconda2/lib/python2.7/site-packages/dbt/parser.py", line 100, in process_refs
+    target_model_package)
+  File "/anaconda2/lib/python2.7/site-packages/dbt/utils.py", line 377, in invalid_ref_fail_unless_test
+    target_model_package)
+  File "/anaconda2/lib/python2.7/site-packages/dbt/exceptions.py", line 165, in ref_target_not_found
+    raise_compiler_error(msg, model)
+  File "/anaconda2/lib/python2.7/site-packages/dbt/exceptions.py", line 116, in raise_compiler_error
+    raise CompilationException(msg, node)
+CompilationException: Compilation Error in model location_history (models/location_history.sql)
+  Model 'model.bin_loc_history.location_history' depends on model 'raw_table' which was not found or is disabled
+
+2018-03-30 17:15:34,511: Tracking: tracking
+2018-03-30 17:15:34,512: Sending event: {'category': 'dbt', 'action': 'invocation', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1105ddd50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1105ddbd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1105dda10>], 'label': 'start'}
+2018-03-30 17:15:34,890: Loading dependency project from /anaconda2/lib/python2.7/site-packages/dbt/include
+2018-03-30 17:15:34,903: Loading dependency project from /Users/clarice/dbt_local/dbt_modules
+2018-03-30 17:15:34,905: Parsing core.sql
+2018-03-30 17:15:34,919: Parsing materializations/view.sql
+2018-03-30 17:15:34,936: Parsing materializations/bigquery.sql
+2018-03-30 17:15:34,951: Parsing materializations/wrapper.sql
+2018-03-30 17:15:34,954: Parsing materializations/helpers.sql
+2018-03-30 17:15:34,973: Parsing materializations/table.sql
+2018-03-30 17:15:34,994: Parsing materializations/archive.sql
+2018-03-30 17:15:35,028: Parsing materializations/incremental.sql
+2018-03-30 17:15:35,056: Parsing etc/get_custom_schema.sql
+2018-03-30 17:15:35,062: Parsing adapters/bigquery.sql
+2018-03-30 17:15:35,067: Parsing adapters/common.sql
+2018-03-30 17:15:35,090: Parsing adapters/redshift.sql
+2018-03-30 17:15:35,113: Parsing adapters/postgres.sql
+2018-03-30 17:15:35,116: Parsing schema_tests/relationships.sql
+2018-03-30 17:15:35,118: Parsing schema_tests/not_null.sql
+2018-03-30 17:15:35,120: Parsing schema_tests/unique.sql
+2018-03-30 17:15:35,122: Parsing schema_tests/accepted_values.sql
+2018-03-30 17:15:35,128: Parsing model.bin_loc_history.location_history
+2018-03-30 17:15:35,131: Found 42 macros, 0 analyses, 0 archives, 0 tests, 1 models, 0 operations
+2018-03-30 17:15:35,134: 
+2018-03-30 17:15:35,140: 17:15:35 | Concurrency: 1 threads (target='dev')
+2018-03-30 17:15:35,140: 17:15:35 | 
+2018-03-30 17:15:35,140: Acquiring new postgres connection "master".
+2018-03-30 17:15:35,140: Opening a new connection (0 currently allocated)
+2018-03-30 17:15:35,150: Using postgres connection "master".
+2018-03-30 17:15:35,150: On master: select tablename as name, 'table' as type from pg_tables
+        where schemaname in ('dbt_clarice')
+        union all
+        select viewname as name, 'view' as type from pg_views
+        where schemaname in ('dbt_clarice')
+2018-03-30 17:15:35,239: SQL status: SELECT 0 in 0.09 seconds
+2018-03-30 17:15:35,244: Compiling model.bin_loc_history.location_history
+2018-03-30 17:15:35,249: Writing injected SQL for node "model.bin_loc_history.location_history"
+2018-03-30 17:15:35,344: Connection 'master' was left open.
+2018-03-30 17:15:35,344: 17:15:35 | Done.
+2018-03-30 17:15:35,345: Sending event: {'category': 'dbt', 'action': 'invocation', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d609710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ed3a2d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1105ccd10>], 'label': 'end'}
+2018-03-30 17:15:35,682: Flushing usage events
+2018-03-30 17:17:23,252: Tracking: tracking
+2018-03-30 17:17:23,252: Sending event: {'category': 'dbt', 'action': 'invocation', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1091afd50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1091afbd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1091afa10>], 'label': 'start'}
+2018-03-30 17:17:23,622: Loading dependency project from /anaconda2/lib/python2.7/site-packages/dbt/include
+2018-03-30 17:17:23,637: Loading dependency project from /Users/clarice/dbt_local/dbt_modules
+2018-03-30 17:17:23,639: Parsing core.sql
+2018-03-30 17:17:23,652: Parsing materializations/view.sql
+2018-03-30 17:17:23,670: Parsing materializations/bigquery.sql
+2018-03-30 17:17:23,685: Parsing materializations/wrapper.sql
+2018-03-30 17:17:23,689: Parsing materializations/helpers.sql
+2018-03-30 17:17:23,710: Parsing materializations/table.sql
+2018-03-30 17:17:23,731: Parsing materializations/archive.sql
+2018-03-30 17:17:23,765: Parsing materializations/incremental.sql
+2018-03-30 17:17:23,795: Parsing etc/get_custom_schema.sql
+2018-03-30 17:17:23,801: Parsing adapters/bigquery.sql
+2018-03-30 17:17:23,806: Parsing adapters/common.sql
+2018-03-30 17:17:23,830: Parsing adapters/redshift.sql
+2018-03-30 17:17:23,853: Parsing adapters/postgres.sql
+2018-03-30 17:17:23,857: Parsing schema_tests/relationships.sql
+2018-03-30 17:17:23,859: Parsing schema_tests/not_null.sql
+2018-03-30 17:17:23,861: Parsing schema_tests/unique.sql
+2018-03-30 17:17:23,863: Parsing schema_tests/accepted_values.sql
+2018-03-30 17:17:23,870: Parsing model.bin_loc_history.location_history
+2018-03-30 17:17:23,873: Found 42 macros, 0 analyses, 0 archives, 0 tests, 1 models, 0 operations
+2018-03-30 17:17:23,876: 
+2018-03-30 17:17:23,879: Acquiring new postgres connection "master".
+2018-03-30 17:17:23,879: Opening a new connection (0 currently allocated)
+2018-03-30 17:17:23,884: Using postgres connection "master".
+2018-03-30 17:17:23,884: On master: select distinct nspname from pg_namespace
+2018-03-30 17:17:23,887: SQL status: SELECT 10 in 0.00 seconds
+2018-03-30 17:17:23,887: Creating schema "dbt_clarice".
+2018-03-30 17:17:23,888: Using postgres connection "master".
+2018-03-30 17:17:23,888: On master: BEGIN
+2018-03-30 17:17:23,888: SQL status: BEGIN in 0.00 seconds
+2018-03-30 17:17:23,888: Using postgres connection "master".
+2018-03-30 17:17:23,888: On master: create schema if not exists "dbt_clarice"
+2018-03-30 17:17:23,895: SQL status: CREATE SCHEMA in 0.01 seconds
+2018-03-30 17:17:23,896: On master: COMMIT
+2018-03-30 17:17:23,896: Using postgres connection "master".
+2018-03-30 17:17:23,896: On master: COMMIT
+2018-03-30 17:17:23,902: SQL status: COMMIT in 0.01 seconds
+2018-03-30 17:17:23,906: Using postgres connection "master".
+2018-03-30 17:17:23,907: On master: BEGIN
+2018-03-30 17:17:23,907: SQL status: BEGIN in 0.00 seconds
+2018-03-30 17:17:23,907: On master: COMMIT
+2018-03-30 17:17:23,907: Using postgres connection "master".
+2018-03-30 17:17:23,907: On master: COMMIT
+2018-03-30 17:17:23,908: SQL status: COMMIT in 0.00 seconds
+2018-03-30 17:17:23,915: 17:17:23 | Concurrency: 1 threads (target='dev')
+2018-03-30 17:17:23,915: 17:17:23 | 
+2018-03-30 17:17:23,916: Using postgres connection "master".
+2018-03-30 17:17:23,916: On master: select tablename as name, 'table' as type from pg_tables
+        where schemaname in ('dbt_clarice')
+        union all
+        select viewname as name, 'view' as type from pg_views
+        where schemaname in ('dbt_clarice')
+2018-03-30 17:17:23,918: SQL status: SELECT 0 in 0.00 seconds
+2018-03-30 17:17:23,922: 17:17:23 | 1 of 1 START view model dbt_clarice.location_history................. [RUN]
+2018-03-30 17:17:23,923: Compiling model.bin_loc_history.location_history
+2018-03-30 17:17:23,928: Writing injected SQL for node "model.bin_loc_history.location_history"
+2018-03-30 17:17:23,929: Acquiring new postgres connection "location_history".
+2018-03-30 17:17:23,930: Opening a new connection (1 currently allocated)
+2018-03-30 17:17:23,935: Using postgres connection "location_history".
+2018-03-30 17:17:23,935: On location_history: select tablename as name, 'table' as type from pg_tables
+        where schemaname in ('dbt_clarice')
+        union all
+        select viewname as name, 'view' as type from pg_views
+        where schemaname in ('dbt_clarice')
+2018-03-30 17:17:23,938: SQL status: SELECT 0 in 0.00 seconds
+2018-03-30 17:17:23,940: Writing runtime SQL for node "model.bin_loc_history.location_history"
+2018-03-30 17:17:23,941: Using postgres connection "location_history".
+2018-03-30 17:17:23,941: On location_history: BEGIN
+2018-03-30 17:17:23,941: SQL status: BEGIN in 0.00 seconds
+2018-03-30 17:17:23,942: Using postgres connection "location_history".
+2018-03-30 17:17:23,942: On location_history: 
+  
+    
+  
+
+  
+    
+  create view "dbt_clarice"."location_history__dbt_tmp" as (
+    
+
+select 1 from platform.dumpster_arrival
+  );
+2018-03-30 17:17:23,964: SQL status: CREATE VIEW in 0.02 seconds
+2018-03-30 17:17:23,964: Using postgres connection "location_history".
+2018-03-30 17:17:23,964: On location_history: alter table "dbt_clarice"."location_history__dbt_tmp" rename to "location_history"
+2018-03-30 17:17:23,965: SQL status: ALTER TABLE in 0.00 seconds
+2018-03-30 17:17:23,965: On location_history: COMMIT
+2018-03-30 17:17:23,965: Using postgres connection "location_history".
+2018-03-30 17:17:23,965: On location_history: COMMIT
+2018-03-30 17:17:23,970: SQL status: COMMIT in 0.00 seconds
+2018-03-30 17:17:23,971: Sending event: {'category': 'dbt', 'action': 'run_model', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1092206d0>], 'label': '97bd3db0-a167-4fa6-a379-057ffc950741'}
+2018-03-30 17:17:24,299: 17:17:24 | 1 of 1 OK created view model dbt_clarice.location_history............ [CREATE VIEW in 0.05s]
+2018-03-30 17:17:24,340: Using postgres connection "master".
+2018-03-30 17:17:24,340: On master: BEGIN
+2018-03-30 17:17:24,341: SQL status: BEGIN in 0.00 seconds
+2018-03-30 17:17:24,341: On master: COMMIT
+2018-03-30 17:17:24,341: Using postgres connection "master".
+2018-03-30 17:17:24,341: On master: COMMIT
+2018-03-30 17:17:24,341: SQL status: COMMIT in 0.00 seconds
+2018-03-30 17:17:24,342: 17:17:24 | 
+2018-03-30 17:17:24,342: 17:17:24 | Finished running 1 view models in 0.47s.
+2018-03-30 17:17:24,342: Connection 'master' was left open.
+2018-03-30 17:17:24,342: 
+2018-03-30 17:17:24,343: Completed successfully
+2018-03-30 17:17:24,343: 
+Done. PASS=1 ERROR=0 SKIP=0 TOTAL=1
+2018-03-30 17:17:24,343: Sending event: {'category': 'dbt', 'action': 'invocation', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1061dc710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10790c2d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10919fd10>], 'label': 'end'}
+2018-03-30 17:17:24,680: Flushing usage events
+2018-03-30 17:22:45,788: Tracking: tracking
+2018-03-30 17:22:45,788: Sending event: {'category': 'dbt', 'action': 'invocation', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1514343b10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1514343a10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1514343d50>], 'label': 'start'}
+2018-03-30 17:22:46,137: Loading dependency project from /anaconda2/lib/python2.7/site-packages/dbt/include
+2018-03-30 17:22:46,150: Loading dependency project from /Users/clarice/dbt_local/dbt_modules
+2018-03-30 17:22:46,152: Parsing core.sql
+2018-03-30 17:22:46,165: Parsing materializations/view.sql
+2018-03-30 17:22:46,181: Parsing materializations/bigquery.sql
+2018-03-30 17:22:46,197: Parsing materializations/wrapper.sql
+2018-03-30 17:22:46,201: Parsing materializations/helpers.sql
+2018-03-30 17:22:46,221: Parsing materializations/table.sql
+2018-03-30 17:22:46,242: Parsing materializations/archive.sql
+2018-03-30 17:22:46,276: Parsing materializations/incremental.sql
+2018-03-30 17:22:46,307: Parsing etc/get_custom_schema.sql
+2018-03-30 17:22:46,313: Parsing adapters/bigquery.sql
+2018-03-30 17:22:46,318: Parsing adapters/common.sql
+2018-03-30 17:22:46,342: Parsing adapters/redshift.sql
+2018-03-30 17:22:46,365: Parsing adapters/postgres.sql
+2018-03-30 17:22:46,368: Parsing schema_tests/relationships.sql
+2018-03-30 17:22:46,371: Parsing schema_tests/not_null.sql
+2018-03-30 17:22:46,372: Parsing schema_tests/unique.sql
+2018-03-30 17:22:46,374: Parsing schema_tests/accepted_values.sql
+2018-03-30 17:22:46,381: Parsing model.bin_loc_history.location_history
+2018-03-30 17:22:46,384: Found 42 macros, 0 analyses, 0 archives, 0 tests, 1 models, 0 operations
+2018-03-30 17:22:46,387: 
+2018-03-30 17:22:46,392: 17:22:46 | Concurrency: 1 threads (target='dev')
+2018-03-30 17:22:46,393: 17:22:46 | 
+2018-03-30 17:22:46,393: Acquiring new postgres connection "master".
+2018-03-30 17:22:46,393: Opening a new connection (0 currently allocated)
+2018-03-30 17:22:46,398: Using postgres connection "master".
+2018-03-30 17:22:46,398: On master: select tablename as name, 'table' as type from pg_tables
+        where schemaname in ('dbt_clarice')
+        union all
+        select viewname as name, 'view' as type from pg_views
+        where schemaname in ('dbt_clarice')
+2018-03-30 17:22:46,401: SQL status: SELECT 1 in 0.00 seconds
+2018-03-30 17:22:46,406: Compiling model.bin_loc_history.location_history
+2018-03-30 17:22:46,411: Writing injected SQL for node "model.bin_loc_history.location_history"
+2018-03-30 17:22:46,507: Connection 'master' was left open.
+2018-03-30 17:22:46,507: 17:22:46 | Done.
+2018-03-30 17:22:46,508: Sending event: {'category': 'dbt', 'action': 'invocation', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110c70710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1123752d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1514332d10>], 'label': 'end'}
+2018-03-30 17:22:46,843: Flushing usage events
+2018-03-30 17:22:57,737: Tracking: tracking
+2018-03-30 17:22:57,738: Sending event: {'category': 'dbt', 'action': 'invocation', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x15148eab10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x15148eaa10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x15148ead50>], 'label': 'start'}
+2018-03-30 17:22:58,083: Loading dependency project from /anaconda2/lib/python2.7/site-packages/dbt/include
+2018-03-30 17:22:58,096: Loading dependency project from /Users/clarice/dbt_local/dbt_modules
+2018-03-30 17:22:58,098: Parsing core.sql
+2018-03-30 17:22:58,111: Parsing materializations/view.sql
+2018-03-30 17:22:58,127: Parsing materializations/bigquery.sql
+2018-03-30 17:22:58,141: Parsing materializations/wrapper.sql
+2018-03-30 17:22:58,145: Parsing materializations/helpers.sql
+2018-03-30 17:22:58,165: Parsing materializations/table.sql
+2018-03-30 17:22:58,184: Parsing materializations/archive.sql
+2018-03-30 17:22:58,219: Parsing materializations/incremental.sql
+2018-03-30 17:22:58,248: Parsing etc/get_custom_schema.sql
+2018-03-30 17:22:58,254: Parsing adapters/bigquery.sql
+2018-03-30 17:22:58,259: Parsing adapters/common.sql
+2018-03-30 17:22:58,281: Parsing adapters/redshift.sql
+2018-03-30 17:22:58,303: Parsing adapters/postgres.sql
+2018-03-30 17:22:58,306: Parsing schema_tests/relationships.sql
+2018-03-30 17:22:58,309: Parsing schema_tests/not_null.sql
+2018-03-30 17:22:58,310: Parsing schema_tests/unique.sql
+2018-03-30 17:22:58,312: Parsing schema_tests/accepted_values.sql
+2018-03-30 17:22:58,319: Parsing model.bin_loc_history.location_history
+2018-03-30 17:22:58,322: Found 42 macros, 0 analyses, 0 archives, 0 tests, 1 models, 0 operations
+2018-03-30 17:22:58,325: 
+2018-03-30 17:22:58,328: Acquiring new postgres connection "master".
+2018-03-30 17:22:58,328: Opening a new connection (0 currently allocated)
+2018-03-30 17:22:58,332: Using postgres connection "master".
+2018-03-30 17:22:58,333: On master: select distinct nspname from pg_namespace
+2018-03-30 17:22:58,334: SQL status: SELECT 11 in 0.00 seconds
+2018-03-30 17:22:58,337: Using postgres connection "master".
+2018-03-30 17:22:58,338: On master: BEGIN
+2018-03-30 17:22:58,338: SQL status: BEGIN in 0.00 seconds
+2018-03-30 17:22:58,338: On master: COMMIT
+2018-03-30 17:22:58,338: Using postgres connection "master".
+2018-03-30 17:22:58,338: On master: COMMIT
+2018-03-30 17:22:58,339: SQL status: COMMIT in 0.00 seconds
+2018-03-30 17:22:58,344: 17:22:58 | Concurrency: 1 threads (target='dev')
+2018-03-30 17:22:58,344: 17:22:58 | 
+2018-03-30 17:22:58,344: Using postgres connection "master".
+2018-03-30 17:22:58,344: On master: select tablename as name, 'table' as type from pg_tables
+        where schemaname in ('dbt_clarice')
+        union all
+        select viewname as name, 'view' as type from pg_views
+        where schemaname in ('dbt_clarice')
+2018-03-30 17:22:58,347: SQL status: SELECT 1 in 0.00 seconds
+2018-03-30 17:22:58,351: 17:22:58 | 1 of 1 START view model dbt_clarice.location_history................. [RUN]
+2018-03-30 17:22:58,351: Compiling model.bin_loc_history.location_history
+2018-03-30 17:22:58,356: Writing injected SQL for node "model.bin_loc_history.location_history"
+2018-03-30 17:22:58,357: Acquiring new postgres connection "location_history".
+2018-03-30 17:22:58,357: Opening a new connection (1 currently allocated)
+2018-03-30 17:22:58,363: Using postgres connection "location_history".
+2018-03-30 17:22:58,363: On location_history: select tablename as name, 'table' as type from pg_tables
+        where schemaname in ('dbt_clarice')
+        union all
+        select viewname as name, 'view' as type from pg_views
+        where schemaname in ('dbt_clarice')
+2018-03-30 17:22:58,367: SQL status: SELECT 1 in 0.00 seconds
+2018-03-30 17:22:58,369: Writing runtime SQL for node "model.bin_loc_history.location_history"
+2018-03-30 17:22:58,369: Using postgres connection "location_history".
+2018-03-30 17:22:58,369: On location_history: BEGIN
+2018-03-30 17:22:58,370: SQL status: BEGIN in 0.00 seconds
+2018-03-30 17:22:58,370: Using postgres connection "location_history".
+2018-03-30 17:22:58,370: On location_history: 
+  
+    
+  
+
+  
+    
+  create view "dbt_clarice"."location_history__dbt_tmp" as (
+    
+
+select 1 from platform.dumpster_arrival
+  );
+2018-03-30 17:22:58,372: SQL status: CREATE VIEW in 0.00 seconds
+2018-03-30 17:22:58,372: Using postgres connection "location_history".
+2018-03-30 17:22:58,372: On location_history: drop view if exists "dbt_clarice"."location_history" cascade
+2018-03-30 17:22:58,377: SQL status: DROP VIEW in 0.00 seconds
+2018-03-30 17:22:58,377: Using postgres connection "location_history".
+2018-03-30 17:22:58,378: On location_history: alter table "dbt_clarice"."location_history__dbt_tmp" rename to "location_history"
+2018-03-30 17:22:58,379: SQL status: ALTER TABLE in 0.00 seconds
+2018-03-30 17:22:58,379: On location_history: COMMIT
+2018-03-30 17:22:58,379: Using postgres connection "location_history".
+2018-03-30 17:22:58,379: On location_history: COMMIT
+2018-03-30 17:22:58,382: SQL status: COMMIT in 0.00 seconds
+2018-03-30 17:22:58,383: Sending event: {'category': 'dbt', 'action': 'run_model', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x15149af790>], 'label': '7cbec04d-12ca-4a5a-932d-6f5da784b9f4'}
+2018-03-30 17:22:58,719: 17:22:58 | 1 of 1 OK created view model dbt_clarice.location_history............ [CREATE VIEW in 0.03s]
+2018-03-30 17:22:58,776: Using postgres connection "master".
+2018-03-30 17:22:58,776: On master: BEGIN
+2018-03-30 17:22:58,777: SQL status: BEGIN in 0.00 seconds
+2018-03-30 17:22:58,777: On master: COMMIT
+2018-03-30 17:22:58,778: Using postgres connection "master".
+2018-03-30 17:22:58,778: On master: COMMIT
+2018-03-30 17:22:58,778: SQL status: COMMIT in 0.00 seconds
+2018-03-30 17:22:58,778: 17:22:58 | 
+2018-03-30 17:22:58,779: 17:22:58 | Finished running 1 view models in 0.45s.
+2018-03-30 17:22:58,779: Connection 'master' was left open.
+2018-03-30 17:22:58,779: 
+2018-03-30 17:22:58,779: Completed successfully
+2018-03-30 17:22:58,780: 
+Done. PASS=1 ERROR=0 SKIP=0 TOTAL=1
+2018-03-30 17:22:58,780: Sending event: {'category': 'dbt', 'action': 'invocation', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1111ec710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11291c2d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x15148dad10>], 'label': 'end'}
+2018-03-30 17:22:59,113: Flushing usage events
+2018-03-30 17:25:39,301: Tracking: tracking
+2018-03-30 17:25:39,302: Sending event: {'category': 'dbt', 'action': 'invocation', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110523b10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110523a10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110523d50>], 'label': 'start'}
+2018-03-30 17:25:39,673: Loading dependency project from /anaconda2/lib/python2.7/site-packages/dbt/include
+2018-03-30 17:25:39,687: Loading dependency project from /Users/clarice/dbt_local/dbt_modules
+2018-03-30 17:25:39,688: Parsing core.sql
+2018-03-30 17:25:39,701: Parsing materializations/view.sql
+2018-03-30 17:25:39,717: Parsing materializations/bigquery.sql
+2018-03-30 17:25:39,731: Parsing materializations/wrapper.sql
+2018-03-30 17:25:39,735: Parsing materializations/helpers.sql
+2018-03-30 17:25:39,754: Parsing materializations/table.sql
+2018-03-30 17:25:39,774: Parsing materializations/archive.sql
+2018-03-30 17:25:39,808: Parsing materializations/incremental.sql
+2018-03-30 17:25:39,837: Parsing etc/get_custom_schema.sql
+2018-03-30 17:25:39,843: Parsing adapters/bigquery.sql
+2018-03-30 17:25:39,848: Parsing adapters/common.sql
+2018-03-30 17:25:39,871: Parsing adapters/redshift.sql
+2018-03-30 17:25:39,893: Parsing adapters/postgres.sql
+2018-03-30 17:25:39,896: Parsing schema_tests/relationships.sql
+2018-03-30 17:25:39,899: Parsing schema_tests/not_null.sql
+2018-03-30 17:25:39,901: Parsing schema_tests/unique.sql
+2018-03-30 17:25:39,903: Parsing schema_tests/accepted_values.sql
+2018-03-30 17:25:39,910: Parsing model.bin_loc_history.location_history
+2018-03-30 17:25:39,913: Sending event: {'category': 'dbt', 'action': 'invocation', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110647dd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110593790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1105939d0>], 'label': 'end'}
+2018-03-30 17:25:40,245: Encountered an error:
+2018-03-30 17:25:40,245: Compilation Error in model location_history (models/location_history.sql)
+  Model 'model.bin_loc_history.location_history' depends on model 'platform.dumpster_arrival' which was not found or is disabled
+2018-03-30 17:25:40,248: Traceback (most recent call last):
+  File "/anaconda2/lib/python2.7/site-packages/dbt/main.py", line 40, in main
+    results, succeeded = handle_and_check(args)
+  File "/anaconda2/lib/python2.7/site-packages/dbt/main.py", line 84, in handle_and_check
+    task, res = run_from_args(parsed)
+  File "/anaconda2/lib/python2.7/site-packages/dbt/main.py", line 138, in run_from_args
+    results = run_from_task(task, proj, parsed)
+  File "/anaconda2/lib/python2.7/site-packages/dbt/main.py", line 146, in run_from_task
+    result = task.run()
+  File "/anaconda2/lib/python2.7/site-packages/dbt/task/run.py", line 26, in run
+    results = runner.run(query, ModelRunner)
+  File "/anaconda2/lib/python2.7/site-packages/dbt/runner.py", line 223, in run
+    return self.run_from_graph(Selector, Runner, query)
+  File "/anaconda2/lib/python2.7/site-packages/dbt/runner.py", line 183, in run_from_graph
+    flat_graph, linker = self.compile(self.project)
+  File "/anaconda2/lib/python2.7/site-packages/dbt/runner.py", line 179, in compile
+    (flat_graph, linker) = compiler.compile()
+  File "/anaconda2/lib/python2.7/site-packages/dbt/compilation.py", line 281, in compile
+    root_project.get('name'))
+  File "/anaconda2/lib/python2.7/site-packages/dbt/parser.py", line 100, in process_refs
+    target_model_package)
+  File "/anaconda2/lib/python2.7/site-packages/dbt/utils.py", line 377, in invalid_ref_fail_unless_test
+    target_model_package)
+  File "/anaconda2/lib/python2.7/site-packages/dbt/exceptions.py", line 165, in ref_target_not_found
+    raise_compiler_error(msg, model)
+  File "/anaconda2/lib/python2.7/site-packages/dbt/exceptions.py", line 116, in raise_compiler_error
+    raise CompilationException(msg, node)
+CompilationException: Compilation Error in model location_history (models/location_history.sql)
+  Model 'model.bin_loc_history.location_history' depends on model 'platform.dumpster_arrival' which was not found or is disabled
+
+2018-03-30 17:28:27,176: Tracking: tracking
+2018-03-30 17:28:27,176: Sending event: {'category': 'dbt', 'action': 'invocation', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b280b10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b280a10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b280d50>], 'label': 'start'}
+2018-03-30 17:28:27,566: Loading dependency project from /anaconda2/lib/python2.7/site-packages/dbt/include
+2018-03-30 17:28:27,579: Loading dependency project from /Users/clarice/dbt_local/dbt_modules
+2018-03-30 17:28:27,581: Parsing core.sql
+2018-03-30 17:28:27,594: Parsing materializations/view.sql
+2018-03-30 17:28:27,611: Parsing materializations/bigquery.sql
+2018-03-30 17:28:27,626: Parsing materializations/wrapper.sql
+2018-03-30 17:28:27,629: Parsing materializations/helpers.sql
+2018-03-30 17:28:27,649: Parsing materializations/table.sql
+2018-03-30 17:28:27,670: Parsing materializations/archive.sql
+2018-03-30 17:28:27,704: Parsing materializations/incremental.sql
+2018-03-30 17:28:27,733: Parsing etc/get_custom_schema.sql
+2018-03-30 17:28:27,739: Parsing adapters/bigquery.sql
+2018-03-30 17:28:27,744: Parsing adapters/common.sql
+2018-03-30 17:28:27,766: Parsing adapters/redshift.sql
+2018-03-30 17:28:27,788: Parsing adapters/postgres.sql
+2018-03-30 17:28:27,792: Parsing schema_tests/relationships.sql
+2018-03-30 17:28:27,794: Parsing schema_tests/not_null.sql
+2018-03-30 17:28:27,796: Parsing schema_tests/unique.sql
+2018-03-30 17:28:27,798: Parsing schema_tests/accepted_values.sql
+2018-03-30 17:28:27,805: Parsing model.bin_loc_history.location_history
+2018-03-30 17:28:27,808: Found 42 macros, 0 analyses, 0 archives, 0 tests, 1 models, 0 operations
+2018-03-30 17:28:27,811: 
+2018-03-30 17:28:27,814: Acquiring new postgres connection "master".
+2018-03-30 17:28:27,814: Opening a new connection (0 currently allocated)
+2018-03-30 17:28:27,819: Using postgres connection "master".
+2018-03-30 17:28:27,819: On master: select distinct nspname from pg_namespace
+2018-03-30 17:28:27,821: SQL status: SELECT 11 in 0.00 seconds
+2018-03-30 17:28:27,824: Using postgres connection "master".
+2018-03-30 17:28:27,824: On master: BEGIN
+2018-03-30 17:28:27,825: SQL status: BEGIN in 0.00 seconds
+2018-03-30 17:28:27,825: On master: COMMIT
+2018-03-30 17:28:27,825: Using postgres connection "master".
+2018-03-30 17:28:27,825: On master: COMMIT
+2018-03-30 17:28:27,825: SQL status: COMMIT in 0.00 seconds
+2018-03-30 17:28:27,831: 17:28:27 | Concurrency: 1 threads (target='dev')
+2018-03-30 17:28:27,831: 17:28:27 | 
+2018-03-30 17:28:27,831: Using postgres connection "master".
+2018-03-30 17:28:27,831: On master: select tablename as name, 'table' as type from pg_tables
+        where schemaname in ('dbt_clarice')
+        union all
+        select viewname as name, 'view' as type from pg_views
+        where schemaname in ('dbt_clarice')
+2018-03-30 17:28:27,834: SQL status: SELECT 1 in 0.00 seconds
+2018-03-30 17:28:27,838: 17:28:27 | 1 of 1 START view model dbt_clarice.location_history................. [RUN]
+2018-03-30 17:28:27,838: Compiling model.bin_loc_history.location_history
+2018-03-30 17:28:27,844: Writing injected SQL for node "model.bin_loc_history.location_history"
+2018-03-30 17:28:27,846: Acquiring new postgres connection "location_history".
+2018-03-30 17:28:27,846: Opening a new connection (1 currently allocated)
+2018-03-30 17:28:27,852: Using postgres connection "location_history".
+2018-03-30 17:28:27,852: On location_history: select tablename as name, 'table' as type from pg_tables
+        where schemaname in ('dbt_clarice')
+        union all
+        select viewname as name, 'view' as type from pg_views
+        where schemaname in ('dbt_clarice')
+2018-03-30 17:28:27,856: SQL status: SELECT 1 in 0.00 seconds
+2018-03-30 17:28:27,860: Writing runtime SQL for node "model.bin_loc_history.location_history"
+2018-03-30 17:28:27,860: Using postgres connection "location_history".
+2018-03-30 17:28:27,861: On location_history: BEGIN
+2018-03-30 17:28:27,861: SQL status: BEGIN in 0.00 seconds
+2018-03-30 17:28:27,861: Using postgres connection "location_history".
+2018-03-30 17:28:27,861: On location_history: 
+  
+    
+  
+
+  
+    
+  create view "dbt_clarice"."location_history__dbt_tmp" as (
+    
+
+select dumpster_id, arrived_at, is_active
+from platform.dumpster_arrival
+where is_active
+  );
+2018-03-30 17:28:27,864: SQL status: CREATE VIEW in 0.00 seconds
+2018-03-30 17:28:27,865: Using postgres connection "location_history".
+2018-03-30 17:28:27,865: On location_history: drop view if exists "dbt_clarice"."location_history" cascade
+2018-03-30 17:28:27,866: SQL status: DROP VIEW in 0.00 seconds
+2018-03-30 17:28:27,866: Using postgres connection "location_history".
+2018-03-30 17:28:27,866: On location_history: alter table "dbt_clarice"."location_history__dbt_tmp" rename to "location_history"
+2018-03-30 17:28:27,866: SQL status: ALTER TABLE in 0.00 seconds
+2018-03-30 17:28:27,866: On location_history: COMMIT
+2018-03-30 17:28:27,867: Using postgres connection "location_history".
+2018-03-30 17:28:27,867: On location_history: COMMIT
+2018-03-30 17:28:27,871: SQL status: COMMIT in 0.00 seconds
+2018-03-30 17:28:27,872: Sending event: {'category': 'dbt', 'action': 'run_model', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b345790>], 'label': 'd01e1661-a64f-4579-a902-94bbae5910ec'}
+2018-03-30 17:28:28,202: 17:28:28 | 1 of 1 OK created view model dbt_clarice.location_history............ [CREATE VIEW in 0.03s]
+2018-03-30 17:28:28,252: Using postgres connection "master".
+2018-03-30 17:28:28,252: On master: BEGIN
+2018-03-30 17:28:28,253: SQL status: BEGIN in 0.00 seconds
+2018-03-30 17:28:28,253: On master: COMMIT
+2018-03-30 17:28:28,253: Using postgres connection "master".
+2018-03-30 17:28:28,253: On master: COMMIT
+2018-03-30 17:28:28,253: SQL status: COMMIT in 0.00 seconds
+2018-03-30 17:28:28,254: 17:28:28 | 
+2018-03-30 17:28:28,254: 17:28:28 | Finished running 1 view models in 0.44s.
+2018-03-30 17:28:28,254: Connection 'master' was left open.
+2018-03-30 17:28:28,254: 
+2018-03-30 17:28:28,254: Completed successfully
+2018-03-30 17:28:28,255: 
+Done. PASS=1 ERROR=0 SKIP=0 TOTAL=1
+2018-03-30 17:28:28,255: Sending event: {'category': 'dbt', 'action': 'invocation', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1082ad710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1099dd2d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b270d10>], 'label': 'end'}
+2018-03-30 17:28:28,587: Flushing usage events
